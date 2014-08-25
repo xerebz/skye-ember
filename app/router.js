@@ -5,6 +5,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('avatar', { path: 'avatars/:avatar_id' });
 });
 
 export default Router;
